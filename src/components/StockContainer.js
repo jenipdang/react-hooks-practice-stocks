@@ -5,6 +5,7 @@ function StockContainer({stocks, handleAdd}) {
 
   const displayStocks = stocks.map((stock) => <Stock key={stock.id} name={stock.name} ticker={stock.ticker} price={stock.price} handleClick={handleAdd} stock={stock}/>)
 
+  
 
   return (
     <div>
